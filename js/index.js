@@ -74,7 +74,6 @@ fetch(URL, {
       login,
       repositories,
     } = res.data.viewer;
-    console.log(res.data);
     const userInfoContainer = document.querySelector(".user-info");
 
     //  Set the avatar(s) on the navigation bar
