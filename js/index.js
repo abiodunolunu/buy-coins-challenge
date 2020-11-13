@@ -23,7 +23,7 @@ const URL = "https://api.github.com/graphql";
 fetch(URL, {
   method: "POST",
   headers: {
-    Authorization: "Bearer f8850285eb0a83df2a983ee609754e66a0e9778c",
+    Authorization: "Bearer 4e4c42dc57987a45bbe778e1b2f090d8f6aca55a",
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
