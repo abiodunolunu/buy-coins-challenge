@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>BuyCoins-Challenge</title>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="header-item logo sm-hide"
+        ><i class="fab fa-github"></i
+      ></a>
+      <div class="menu-icon header-item lg-hide" onclick="toggleNav()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="header-item main-nav">
+        <div class="search-bar">
+          <label>
+            <input type="text" placeholder="Search or jump to..." />
+            <span>/</span>
+          </label>
+        </div>
+        <a href="#" class="lg-hide">Dashboard</a>
+        <a href="#">Pull requests</a>
+        <a href="#">Issues</a>
+        <a href="#">Marketplace</a>
+        <a href="#">Explore</a>
+        <a href="#" class="lg-hide"
+          ><img src="" class="avi" alt="avatar" /> <span>abiodunolunu</span></a
+        >
+        <a href="#" class="lg-hide"
+          ><i class="fas fa-sign-out-alt"></i> Sign out</a
+        >
+      </div>
+      <a href="#" class="header-item logo lg-hide"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a href="#" class="header-item"><i class="far fa-bell"></i></a>
+      <div href="#" class="header-item sm-hide has-children">
+        <i class="fas fa-plus"></i> <i class="fas fa-caret-down"></i>
+        <div class="children">
+          <ul>
+            <li><a href="#">New repository</a></li>
+            <li><a href="#">Import repository</a></li>
+            <li><a href="#">New gist</a></li>
+            <li><a href="#">New organization</a></li>
+            <li><a href="#">New project</a></li>
+          </ul>
+        </div>
+      </div>
+      <div href="#" class="header-item sm-hide has-children">
+        <img src="" class="avi" alt="avatar" />
+        <i class="fas fa-caret-down"></i>
+        <div class="children">
+          <ul>
+            <li>
+              <a href="#"
+                ><span>Signed in as</span>
+                <span class="name">abiodunolunu</span></a
+              >
+            </li>
+            <li>
+              <a href="#" class="has-border status"
+                ><span> <span>🙂</span> Set Status</span></a
+              >
+            </li>
+            <li><a href="#">Your profile</a></li>
+            <li><a href="#">Your repositories</a></li>
+            <li><a href="#">Your organizations</a></li>
+            <li><a href="#">Your projects</a></li>
+            <li><a href="#">Your stars</a></li>
+            <li><a href="#">Your gists</a></li>
+            <hr />
+            <li><a href="#">Upgrade</a></li>
+            <li><a href="#">Feature preview</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="all-tabs">
+        <div class="container">
+          <div class="space"></div>
+          <div class="tabs__wrapper">
+            <a href="#" class="tab"
+              ><i class="fas fa-book-open"></i> Overview</a
+            >
+            <a href="#" class="tab active"
+              ><i class="fas fa-book"></i>Repositories <span>24</span></a
+            >
+            <a href="#" class="tab"><i class="fas fa-poll"></i>Projects</a>
+            <a href="#" class="tab"><i class="fas fa-box"></i>Packages</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="user-info">
+        <div class="image">
+          <img src="" alt="" />
+
+          <div class="text">
+            <h2 class="username"></h2>
+            <p class="userhandle"></p>
+          </div>
+          <a href="#" class="set-status-sm btn">🙂 Set Status</a>
+        </div>
+
+        <div class="user-text">
+          <p class="userdesc"></p>
+
+          <a href="#" class="edit">Edit profile</a>
+
+          <div class="fllw">
+            <p>
+              <i class="fas fa-users"></i>
+              <span class="followers"></span> followers
+            </p>
+            <p><span class="following"></span> following</p>
+            <p><i class="fas fa-star"></i> <span> 0 </span></p>
+          </div>
+
+          <p class="locate">
+            <i class="fas fa-map-marker-alt"></i> <span class="location"></span>
+          </p>
+          <p>
+            <i class="fas fa-link"></i>
+            <a target="_blank" class="websiteUrl" href=""
+              >abeydev.netlify.app</a
+            >
+          </p>
+        </div>
+      </section>
+
+      <section class="user-repos">
+        <div class="repos">
+          <div class="container">
+            <div class="find-create">
+              <form action="#">
+                <input type="text" placeholder="Find a repository..." />
+              </form>
+              <button class="btn"><i class="fas fa-book"></i> New</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="./js/index.js"></script>
+    </main>
+  </body>
+</html>
